@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg, #001f3f, #003366);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+#controls {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Smaller width */
+
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: rgba(0, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(0, 255, 255, 0.4);
+}
